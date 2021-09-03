@@ -10,11 +10,11 @@
 
 ### 结构
 
-[结构](Library%20Structures.md)一节将帮助你了解常见库的格式以及如何为每种格式书写正确的声明文件。 如果你在编辑一个已经存在的文件，那么你可能不需要阅读此章节。 如果你在书写新的声明文件，那么你必须阅读此章节以理解库的不同格式是如何影响声明文件的书写的。
+[结构](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/introduction/Library%20Structures.md)一节将帮助你了解常见库的格式以及如何为每种格式书写正确的声明文件。 如果你在编辑一个已经存在的文件，那么你可能不需要阅读此章节。 如果你在书写新的声明文件，那么你必须阅读此章节以理解库的不同格式是如何影响声明文件的书写的。
 
 ### 举例
 
-很多时候，我们只能通过一些示例来了解第三方库是如何工作的，同时我们需要为这样的库书写声明文件。 [举例](By%20Example.md)一节展示了很多常见的API模式以及如何为它们书写声明文件。 这篇指南是针对TypeScript初学者的，它们可能还不了解TypeScript里的所有语言结构。
+很多时候，我们只能通过一些示例来了解第三方库是如何工作的，同时我们需要为这样的库书写声明文件。 [举例](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/introduction/By%20Example.md)一节展示了很多常见的API模式以及如何为它们书写声明文件。 这篇指南是针对TypeScript初学者的，它们可能还不了解TypeScript里的所有语言结构。
 
 ### 规范
 
@@ -22,17 +22,17 @@
 
 ### 深入
 
-对于那些对声明文件底层工作机制感兴趣的老手们， [深入](Deep%20Dive.md)一节解释了很多高级书写声明文件的高级概念， 以及展示了如何利用这些概念来创建整洁和直观的声明文件。
+对于那些对声明文件底层工作机制感兴趣的老手们， [深入](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/introduction/Deep%20Dive.md)一节解释了很多高级书写声明文件的高级概念， 以及展示了如何利用这些概念来创建整洁和直观的声明文件。
 
 ### 模版
 
-在[模版](Templates.md)一节里，你能找到一些声明文件，它们可以帮助你快速开始 当你在书写一个新声明文件的时候。 参考[结构](Library%20Structures.md)这篇文档来找到应该使用哪个模版文件。
+在[模版](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/introduction/Templates.md)一节里，你能找到一些声明文件，它们可以帮助你快速开始 当你在书写一个新声明文件的时候。 参考[结构](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/introduction/Library%20Structures.md)这篇文档来找到应该使用哪个模版文件。
 
 ### 发布到npm
 
-[发布](Publishing.md)一节讲解了如何发布声明文件为npm包，及如何管理包的依赖。
+[发布](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/introduction/Publishing.md)一节讲解了如何发布声明文件为npm包，及如何管理包的依赖。
 
 ### 查找与安装声明文件
 
-对于JavaScript库的使用者来讲，[使用](Consumption.md)一节提供了一些简单步骤来定位与安装相应的声明文件。
+对于JavaScript库的使用者来讲，[使用](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/introduction/Consumption.md)一节提供了一些简单步骤来定位与安装相应的声明文件。
 

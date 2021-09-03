@@ -17,7 +17,7 @@
 * [命名空间和模块](namespaces-and-modules.md)
 * [模块解析](module-resolution.md)
 * [声明合并](declaration-merging.md)
-* [书写.d.ts文件]()
+* [书写.d.ts文件](./)
 * [JSX](jsx.md)
 * [Decorators](decorators.md)
 * [混入](mixins.md)

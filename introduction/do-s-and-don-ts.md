@@ -18,7 +18,7 @@ _应该_使用类型`number`，`string`，`boolean`和`symbol`。
 function reverse(s: string): string;
 ```
 
-使用非原始的`object`类型来代替`Object` （[TypeScript 2.2新增](../../release-notes/TypeScript%202.2.md#object-type)）
+使用非原始的`object`类型来代替`Object` （[TypeScript 2.2新增](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/release-notes/TypeScript%202.2.md#object-type)）
 
 ### 泛型
 

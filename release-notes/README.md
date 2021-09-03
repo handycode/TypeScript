@@ -1,6 +1,6 @@
 # 新增功能
 
-* [TypeScript 3.8](typescript-3.8.md)
+* [TypeScript 3.8](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/release-notes/typescript-3.8.md)
 * [TypeScript 3.7](typescript-3.7.md)
 * [TypeScript 3.6](typescript-3.6.md)
 * [TypeScript 3.5](typescript-3.5.md)

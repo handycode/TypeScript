@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](preface.md)
+* [介绍](preface.md)
 * [快速上手](tutorials/README.md)
   * [5分钟了解TypeScript](tutorials/typescript-in-5-minutes.md)
   * [ASP.NET Core](tutorials/asp.net-core.md)

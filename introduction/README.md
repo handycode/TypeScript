@@ -26,7 +26,7 @@
 
 ### 模版
 
-在[模版](../doc/handbook/declaration%20files/Templates.md)一节里，你能找到一些声明文件，它们可以帮助你快速开始 当你在书写一个新声明文件的时候。 参考[结构](library-structures.md)这篇文档来找到应该使用哪个模版文件。
+在[模版](https://github.com/handycode/TypeScript/tree/24140e776561ba14d9dc45b487329a15d3967501/doc/handbook/declaration%20files/Templates.md)一节里，你能找到一些声明文件，它们可以帮助你快速开始 当你在书写一个新声明文件的时候。 参考[结构](library-structures.md)这篇文档来找到应该使用哪个模版文件。
 
 ### 发布到npm
 

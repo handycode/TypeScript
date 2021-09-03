@@ -72,7 +72,7 @@ npm install --save-dev @types/react @types/react-dom
 npm install --save-dev typescript ts-loader source-map-loader
 ```
 
-这些依赖会让TypeScript和webpack在一起良好地工作。 `ts-loader`可以让Webpack使用TypeScript的标准配置文件`tsconfig.json`编译TypeScript代码。 source-map-loader使用TypeScript输出的sourcemap文件来告诉webpack何时生成_自己的_sourcemaps。 这就允许你在调试最终生成的文件时就好像在调试TypeScript源码一样。
+这些依赖会让TypeScript和webpack在一起良好地工作。 `ts-loader`可以让Webpack使用TypeScript的标准配置文件`tsconfig.json`编译TypeScript代码。 source-map-loader使用TypeScript输出的sourcemap文件来告诉webpack何时生成\_自己的\_sourcemaps。 这就允许你在调试最终生成的文件时就好像在调试TypeScript源码一样。
 
 请注意，`ts-loader`并不是唯一的`TypeScript`加载器。
 

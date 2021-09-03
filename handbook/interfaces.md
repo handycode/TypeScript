@@ -170,7 +170,6 @@ let mySquare = createSquare({ width: 100, opacity: 0.5 } as SquareConfig);
 interface SquareConfig {
   color?: string;
   width?: number;
-  [propName: string]: any;
 }
 ```
 
@@ -253,7 +252,6 @@ mySearch = function(src, sub) {
 
 ```typescript
 interface StringArray {
-  [index: number]: string;
 }
 
 let myArray: StringArray;
@@ -276,8 +274,6 @@ class Dog extends Animal {
 
 // 错误：使用数值型的字符串索引，有时会得到完全不同的Animal!
 interface NotOkay {
-  [x: number]: Animal;
-  [x: string]: Dog;
 }
 ```
 
@@ -285,7 +281,6 @@ interface NotOkay {
 
 ```typescript
 interface NumberDictionary {
-  [index: string]: number;
   length: number; // 可以，length是number类型
   name: string; // 错误，`name`的类型与索引类型返回值的类型不匹配
 }

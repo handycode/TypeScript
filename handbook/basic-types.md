@@ -32,7 +32,7 @@ let name: string = "bob";
 name = "smith";
 ```
 
-你还可以使用_模版字符串_，它可以定义多行文本和内嵌表达式。 这种字符串是被反引号包围（````` ），并且以`${ expr }`这种形式嵌入表达式
+你还可以使用_模版字符串_，它可以定义多行文本和内嵌表达式。 这种字符串是被反引号包围（````````` ），并且以`````${ expr }\`这种形式嵌入表达式
 
 ```typescript
 let name: string = `Gene`;
@@ -144,7 +144,7 @@ let prettySure: Object = 4;
 prettySure.toFixed(); // Error: Property 'toFixed' doesn't exist on type 'Object'.
 ```
 
-> 注意：应避免使用`Object`，而是使用非原始`object`类型，正如[Do's and Don'ts](../doc/handbook/declaration%20files/Do's%20and%20Don'ts.md)里所讲的那样。
+> 注意：应避免使用`Object`，而是使用非原始`object`类型，正如\[Do's and Don'ts\]\(../doc/handbook/declaration%20files/Do's%20and%20Don'ts.md\)里所讲的那样。
 
 当你只知道一部分数据的类型时，`any`类型也是有用的。 比如，你有一个数组，它包含了不同的类型的数据：
 
@@ -254,7 +254,7 @@ let someValue: any = "this is a string";
 let strLength: number = (someValue as string).length;
 ```
 
-两种形式是等价的。 至于使用哪个大多数情况下是凭个人喜好；然而，当你在TypeScript里使用JSX时，只有`as`语法断言是被允许的。
+两种形式是等价的。 至于使用哪个大多数情况下是凭个人喜好；然而，当你在TypeScript里使用JSX时，**只有`as`语法断言是被允许的**。
 
 ## 关于`let`
 
